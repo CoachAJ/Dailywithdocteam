@@ -42,10 +42,10 @@ export default function Navbar() {
             </div>
             <div className="hidden sm:block">
               <div className="text-base font-playfair font-bold leading-tight">
-                Wallach Revolution
+                Daily With Doc Team
               </div>
               <div className="text-xs text-forest-200 tracking-wider">
-                Dr. Joel D. Wallach
+                DailyWithDocTeam.com
               </div>
             </div>
           </Link>

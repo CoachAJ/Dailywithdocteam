@@ -59,12 +59,12 @@ export default function Footer() {
                 <Leaf className="w-5 h-5 text-white" />
               </div>
               <div>
-                <div className="text-white font-playfair font-bold text-lg leading-tight">Wallach Revolution</div>
-                <div className="text-forest-400 text-xs tracking-wider">Dr. Joel D. Wallach</div>
+                <div className="text-white font-playfair font-bold text-lg leading-tight">Daily With Doc Team</div>
+                <div className="text-forest-400 text-xs tracking-wider">DailyWithDocTeam.com</div>
               </div>
             </Link>
             <p className="text-forest-300 text-sm leading-relaxed">
-              Dedicated to the life, research, and nutritional protocols of Dr. Joel D. Wallach — veterinarian, naturopath, and champion of the 90 Essential Nutrients.
+              Bringing clarity to Dr. Joel Wallach&apos;s endorsement of the 90 Essential Nutrients — the research, protocols, and products behind Dead Doctors Don&apos;t Lie.
             </p>
             <div className="mt-5 flex flex-col gap-2 text-sm">
               <div className="flex items-center gap-2 text-forest-400">
@@ -115,7 +115,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-forest-500 text-xs">
-            <p>© {new Date().getFullYear()} The Wallach Revolution. Educational resource — not affiliated with Youngevity International, Inc.</p>
+            <p>© {new Date().getFullYear()} DailyWithDocTeam.com. Educational resource — not affiliated with Youngevity International, Inc.</p>
             <div className="flex gap-4">
               <Link href="/about" className="hover:text-forest-300 transition-colors">About</Link>
               <Link href="/protocols" className="hover:text-forest-300 transition-colors">Protocols</Link>

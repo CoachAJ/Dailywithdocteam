@@ -42,7 +42,7 @@ const foundationPacks = [
       {
         name: 'Ultimate Daily Classic',
         role: 'Blood pressure & circulation support',
-        desc: 'Contains the mineral co-factors that support healthy blood pressure, kidney filtration, and cerebrovascular circulation. Includes the full selenium complex for cardiac muscle protection.',
+        desc: 'Contains the mineral co-factors that support healthy blood pressure, kidney filtration, and cerebrovascular circulation. Includes the full selenium complex for cardiac muscle support.',
       },
       {
         name: 'Ultimate Selenium',
@@ -55,7 +55,7 @@ const foundationPacks = [
         desc: 'High-dose Omega-3 supplementation reduces inflammatory markers, supports arterial elasticity, and provides the fatty acid cofactors for cardiac and neurological membrane health.',
       },
     ],
-    forWho: 'Anyone with cardiovascular risk factors, AFib, high blood pressure, or a family history of heart disease.',
+    forWho: 'Anyone with cardiovascular wellness goals, irregular heart rhythm concerns, blood pressure challenges, or a family history of heart issues.'
   },
   {
     name: 'Healthy Bone & Joint Pack',
@@ -80,11 +80,11 @@ const foundationPacks = [
         desc: 'A comprehensive mineral replacement sports drink containing 100 nutrients. Supports mineral replenishment after exercise, joint lubrication, and tissue repair. Featured on the canister with NBA star Theo Ratliff.',
       },
     ],
-    forWho: 'Arthritis sufferers, athletes, aging adults, and anyone with bone loss, spurs, or joint pain.',
+    forWho: 'Anyone experiencing joint discomfort, athletes, aging adults, and those dealing with bone loss, bone spurs, or mobility challenges.'
   },
   {
     name: 'Healthy Blood Sugar Pack',
-    tagline: 'Chromium & Vanadium — The Diabetes Protocol',
+    tagline: 'Chromium & Vanadium — The Blood Sugar Support Protocol',
     color: 'from-purple-800 to-purple-950',
     badge: 'Blood Sugar',
     badgeColor: 'bg-purple-700',
@@ -92,12 +92,12 @@ const foundationPacks = [
       {
         name: 'Sweet Eze',
         role: 'Chromium/Vanadium insulin-support formula',
-        desc: 'The targeted diabetes support formula. Contains therapeutic-dose chromium and vanadium — the two minerals Dr. Wallach identifies as the core deficiencies in Type 2 Diabetes. Also includes cinnamon extract and gymnema sylvestre for glucose regulation.',
+        desc: 'The targeted blood sugar support formula. Contains therapeutic-dose chromium and vanadium — the two minerals Dr. Wallach identifies as the core deficiencies behind blood sugar regulation challenges. Also includes cinnamon extract and gymnema sylvestre for glucose support.'
       },
       {
         name: 'Beyond Tangy Tangerine 2.0',
         role: 'Full-spectrum nutritional support',
-        desc: 'Provides the complete nutritional foundation while Sweet Eze provides the targeted diabetes minerals. The combination addresses deficiency at both the specific (chromium/vanadium) and systemic (all 90 nutrients) level.',
+        desc: 'Provides the complete nutritional foundation while Sweet Eze provides the targeted blood sugar minerals. The combination addresses deficiency at both the specific (chromium/vanadium) and systemic (all 90 nutrients) level.'
       },
       {
         name: 'Plant-Derived Colloidal Minerals',
@@ -105,7 +105,7 @@ const foundationPacks = [
         desc: 'The broad-spectrum mineral foundation that includes chromium, vanadium, and all 58 other essential minerals in plant-derived colloidal form — the most bioavailable source available.',
       },
     ],
-    forWho: 'Type 2 Diabetics, pre-diabetics, metabolic syndrome, and anyone with blood sugar irregularities.',
+    forWho: 'Anyone managing blood sugar levels, those with metabolic wellness concerns, and anyone experiencing blood sugar irregularities.'
   },
 ];
 
@@ -116,7 +116,7 @@ const secretSauces = [
     target: 'Cartilage, Ligaments, Bone Matrix',
     color: 'border-earth-200 bg-earth-50',
     headerColor: 'bg-earth-700',
-    desc: 'The joint and connective tissue repair formula. Glucosamine sulfate provides the raw material for synovial fluid and cartilage matrix. MSM delivers organic sulfur for collagen cross-linking. Chondroitin attracts water into cartilage to maintain cushioning. Essential for any bone or joint protocol.',
+    desc: 'The joint and connective tissue support formula. Glucosamine sulfate provides the raw material for synovial fluid and cartilage matrix. MSM delivers organic sulfur for collagen cross-linking. Chondroitin attracts water into cartilage to maintain cushioning. Essential for any bone or joint wellness protocol.',
     keyNutrients: ['Glucosamine Sulfate 1500mg', 'MSM (Methylsulfonylmethane)', 'Chondroitin Sulfate', 'Collagen co-factors'],
   },
   {
@@ -125,7 +125,7 @@ const secretSauces = [
     target: 'Blood Sugar, Insulin Sensitivity',
     color: 'border-purple-200 bg-purple-50',
     headerColor: 'bg-purple-700',
-    desc: 'The Chromium + Vanadium blood sugar formula. Dr. Wallach\'s go-to recommendation for anyone with diabetes, pre-diabetes, or metabolic syndrome. Chromium activates insulin receptors; vanadium mimics insulin\'s action directly. Also contains cinnamon extract and gymnema sylvestre for synergistic glucose support.',
+    desc: 'The Chromium + Vanadium blood sugar formula. Dr. Wallach\'s go-to recommendation for anyone with blood sugar challenges or metabolic wellness concerns. Chromium activates insulin receptors; vanadium mimics insulin\'s action directly. Also contains cinnamon extract and gymnema sylvestre for synergistic glucose support.',
     keyNutrients: ['Chromium (Picolinate)', 'Vanadium (Sulfate)', 'Gymnema Sylvestre', 'Cinnamon Bark Extract'],
   },
   {
@@ -161,7 +161,7 @@ const secretSauces = [
     target: 'Athletic Recovery, Mineral Replacement',
     color: 'border-green-200 bg-green-50',
     headerColor: 'bg-green-700',
-    desc: 'The mineral-replacement sports drink containing 100 nutrients. The antidote to the athlete death problem Dr. Wallach warns about. Contains the full electrolyte and mineral profile lost through sweat, plus energy co-factors. NBA star Theo Ratliff features on the canister after recovering from career-ending arthritis using this protocol.',
+    desc: 'The mineral-replacement sports drink containing 100 nutrients. The antidote to the athlete death problem Dr. Wallach warns about. Contains the full electrolyte and mineral profile lost through sweat, plus energy co-factors. NBA star Theo Ratliff features on the canister after recovering from a career-ending joint condition using this protocol.',
     keyNutrients: ['60 Plant-Derived Minerals', 'Full electrolyte complex', 'B-vitamins', 'CoQ10, L-Carnitine'],
   },
   {

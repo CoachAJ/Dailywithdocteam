@@ -17,11 +17,11 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: 'The Wallach Revolution | Dr. Joel D. Wallach',
-    template: '%s | Dr. Joel Wallach',
+    default: 'Daily With Doc Team | Dr. Joel D. Wallach',
+    template: '%s | DailyWithDocTeam.com',
   },
   description:
-    'Discover the groundbreaking nutritional research of Dr. Joel D. Wallach — veterinarian, naturopath, and author of Dead Doctors Don\'t Lie. Learn about the 90 Essential Nutrients and how to support your body\'s natural health.',
+    'Bringing clarity to Dr. Joel Wallach\'s endorsement of the 90 Essential Nutrients. Discover the research, protocols, and products behind Dead Doctors Don\'t Lie.',
   keywords: [
     'Dr. Joel Wallach',
     '90 essential nutrients',
@@ -33,7 +33,7 @@ export const metadata = {
   ],
   openGraph: {
     type: 'website',
-    siteName: 'The Wallach Revolution',
+    siteName: 'Daily With Doc Team',
   },
 };
 
