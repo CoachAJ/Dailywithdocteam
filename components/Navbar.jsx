@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, ChevronDown, Leaf } from 'lucide-react';
+import Image from 'next/image';
+import { Menu, X, ChevronDown } from 'lucide-react';
 
 const primaryNav = [
   { label: 'Home', href: '/' },
@@ -37,8 +38,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 flex-shrink-0">
-            <div className="w-9 h-9 bg-gradient-to-br from-earth-600 to-gold-600 rounded-full flex items-center justify-center shadow-md">
-              <Leaf className="w-5 h-5 text-white" />
+            <div className="w-9 h-9 rounded-full overflow-hidden flex-shrink-0 shadow-md bg-white">
+              <Image
+                src="/images/Dailywithdocteam logo.png"
+                alt="Daily With Doc Team Logo"
+                width={36}
+                height={36}
+                className="object-cover w-full h-full"
+              />
             </div>
             <div className="hidden sm:block">
               <div className="text-base font-playfair font-bold leading-tight">

@@ -61,6 +61,16 @@ export const metadata = {
   alternates: {
     canonical: siteUrl,
   },
+  icons: {
+    icon: [
+      { url: '/favicon_io/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon_io/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: { url: '/favicon_io/apple-touch-icon.png' },
+    other: [
+      { rel: 'manifest', url: '/favicon_io/site.webmanifest' },
+    ],
+  },
 };
 
 const websiteSchema = {
@@ -82,7 +92,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'Daily With Doc Team',
   url: 'https://dailywithdocteam.com',
-  logo: 'https://dailywithdocteam.com/images/doc-tree.jpg',
+  logo: 'https://dailywithdocteam.com/images/Dailywithdocteam logo.png',
   description: 'An educational resource dedicated to bringing clarity to Dr. Joel Wallach\'s research on the 90 Essential Nutrients and nutritional medicine.',
   sameAs: ['https://github.com/CoachAJ/Dailywithdocteam'],
 };

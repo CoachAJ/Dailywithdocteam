@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Leaf, Radio, BookOpen, FlaskConical, ShieldCheck, Phone, HeartHandshake } from 'lucide-react';
+import Image from 'next/image';
+import { Radio, BookOpen, FlaskConical, ShieldCheck, Phone, HeartHandshake } from 'lucide-react';
 
 const footerLinks = {
   'Dr. Wallach': [
@@ -79,8 +80,14 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-earth-600 to-gold-600 rounded-full flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-white" />
+              <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-white shadow">
+                <Image
+                  src="/images/Dailywithdocteam logo.png"
+                  alt="Daily With Doc Team Logo"
+                  width={40}
+                  height={40}
+                  className="object-cover w-full h-full"
+                />
               </div>
               <div>
                 <div className="text-white font-playfair font-bold text-lg leading-tight">Daily With Doc Team</div>
