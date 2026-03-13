@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Radio, BookOpen, FlaskConical, ShieldCheck, Phone, HeartHandshake } from 'lucide-react';
+import NewsletterSignup from './NewsletterSignup';
 
 const footerLinks = {
   'Dr. Wallach': [
@@ -73,6 +74,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
+      <NewsletterSignup />
 
       {/* Main footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

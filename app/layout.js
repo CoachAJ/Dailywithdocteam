@@ -1,4 +1,5 @@
 import { Playfair_Display, Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -109,6 +110,16 @@ export default function RootLayout({ children }) {
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
+      <Script
+        id="getresponse-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `(function(m,o,n,t,e,r,_){
+            m['__GetResponseAnalyticsObject']=e;m[e]=m[e]||function(){(m[e].q=m[e].q||[]).push(arguments)};
+            r=o.createElement(n);_=o.getElementsByTagName(n)[0];r.async=1;r.src=t;r.setAttribute('crossorigin','use-credentials');_.parentNode.insertBefore(r,_);
+          })(window,document,'script','https://newsletters.sunpoweredproductions.com/script/b4dbbbf4-081b-4fde-9688-dbb19ee63186/ga.js','GrTracking');`,
+        }}
+      />
     </html>
   );
 }
