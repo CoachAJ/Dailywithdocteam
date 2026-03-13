@@ -5,6 +5,41 @@ import { GraduationCap, FlaskConical, Award, Scale, BookOpen, ArrowRight, CheckC
 export const metadata = {
   title: 'About Dr. Joel Wallach — Biography & Credentials',
   description: 'Detailed biography of Dr. Joel D. Wallach — his education, NIH research, Smithsonian thesis, major discoveries, awards, and legal victories against the FDA.',
+  alternates: { canonical: 'https://dailywithdocteam.com/about' },
+  openGraph: {
+    title: 'About Dr. Joel Wallach — Biography & Credentials',
+    description: 'Veterinarian, naturopath, NIH-grant recipient, and author of Dead Doctors Don\'t Lie. Learn the full story of Dr. Joel D. Wallach.',
+    url: 'https://dailywithdocteam.com/about',
+  },
+};
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Dr. Joel D. Wallach',
+  alternateName: 'Doc Wallach',
+  jobTitle: 'Veterinarian, Naturopathic Physician, Author',
+  description: 'Dr. Joel D. Wallach is a veterinarian, naturopath, and author who has researched the link between nutritional deficiencies and disease for over 50 years. He is known for his landmark audio lecture Dead Doctors Don\'t Lie and his advocacy for the 90 Essential Nutrients.',
+  url: 'https://dailywithdocteam.com/about',
+  image: 'https://dailywithdocteam.com/images/doc-tree.jpg',
+  knowsAbout: [
+    '90 Essential Nutrients',
+    'Plant-Derived Colloidal Minerals',
+    'Nutritional Deficiency and Disease',
+    'Veterinary Medicine',
+    'Naturopathic Medicine',
+    'Youngevity Products',
+  ],
+  alumniOf: [
+    { '@type': 'EducationalOrganization', name: 'University of Missouri' },
+    { '@type': 'EducationalOrganization', name: 'National College of Naturopathic Medicine' },
+  ],
+  award: [
+    'NIH Research Grant Recipient',
+    'Smithsonian Institution Recognition',
+    'Nobel Prize Nomination (Physiology/Medicine)',
+  ],
+  sameAs: ['https://en.wikipedia.org/wiki/Joel_Wallach'],
 };
 
 const education = [
@@ -98,6 +133,7 @@ const quotes = [
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       {/* Hero */}
       <section className="bg-gradient-to-br from-forest-950 to-ocean-950 text-white py-16 md:py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-hero-pattern opacity-30" />
