@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Package, Star, CheckCircle, ArrowRight, ShieldCheck, Leaf, Droplets, Zap } from 'lucide-react';
+import { Package, Star, CheckCircle, ArrowRight, ShieldCheck, Leaf, Droplets, Zap, Phone } from 'lucide-react';
 
 export const metadata = {
   title: '90 For Life Products — Youngevity Supplement Guide',
@@ -265,6 +265,30 @@ export default function ProductsPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Coach CTA */}
+      <section className="py-10 bg-ocean-900">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-6 bg-ocean-800/60 border border-ocean-700 rounded-2xl px-8 py-7">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 bg-ocean-700 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                <Phone className="w-7 h-7 text-white" />
+              </div>
+              <div>
+                <p className="text-white font-playfair font-bold text-xl leading-tight">You Are Not Alone</p>
+                <p className="text-ocean-200 text-sm mt-0.5">Guidance from a Certified Wholistic Health Coach is in reach — get help choosing the right protocol for you.</p>
+              </div>
+            </div>
+            <a
+              href="tel:8559493377"
+              className="flex items-center gap-2.5 bg-earth-600 hover:bg-earth-500 text-white font-bold px-7 py-3.5 rounded-xl text-xl transition-colors shadow-lg whitespace-nowrap flex-shrink-0"
+            >
+              <Phone className="w-5 h-5" />
+              855-949-3377
+            </a>
           </div>
         </div>
       </section>

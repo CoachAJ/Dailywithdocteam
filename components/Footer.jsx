@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Leaf, Radio, BookOpen, FlaskConical, ShieldCheck, Phone } from 'lucide-react';
+import { Leaf, Radio, BookOpen, FlaskConical, ShieldCheck, Phone, HeartHandshake } from 'lucide-react';
 
 const footerLinks = {
   'Dr. Wallach': [
@@ -45,6 +45,30 @@ export default function Footer() {
             >
               View Products
             </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Coach CTA Band */}
+      <div className="bg-ocean-900 border-t border-ocean-800 border-b border-ocean-700 py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 bg-ocean-700 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                <HeartHandshake className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <p className="text-white font-playfair font-bold text-lg leading-tight">You Are Not Alone</p>
+                <p className="text-ocean-200 text-sm">Guidance from a Certified Wholistic Health Coach is in reach.</p>
+              </div>
+            </div>
+            <a
+              href="tel:8559493377"
+              className="flex items-center gap-2.5 bg-earth-600 hover:bg-earth-500 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors shadow-lg whitespace-nowrap"
+            >
+              <Phone className="w-5 h-5" />
+              855-949-3377
+            </a>
           </div>
         </div>
       </div>
