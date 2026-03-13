@@ -19,7 +19,7 @@ const minerals = [
 const vitamins = [
   'Vitamin A (Retinol)', 'Vitamin B1 (Thiamine)', 'Vitamin B2 (Riboflavin)', 'Vitamin B3 (Niacin)',
   'Vitamin B5 (Pantothenic Acid)', 'Vitamin B6 (Pyridoxine)', 'Vitamin B12 (Cobalamin)', 'Vitamin C (Ascorbic Acid)',
-  'Vitamin D3 (Cholecalciferol)', 'Vitamin E (Tocopherols)', 'Vitamin K2 (Menaquinone)', 'Folic Acid',
+  'Vitamin D3 (Cholecalciferol)', 'Vitamin E (Tocopherols)', 'Vitamin K2 (Menaquinone)', 'Folate',
   'Biotin', 'Choline', 'Inositol', 'PABA',
 ];
 

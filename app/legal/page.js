@@ -3,15 +3,15 @@ import { Scale, Shield, CheckCircle, ArrowRight, Gavel, AlertTriangle, BookOpen 
 
 export const metadata = {
   title: 'Legal Battles & FDA Victories',
-  description: 'Dr. Wallach\'s 8-9 federal lawsuits against the FDA, health claim victories for Selenium, Folic Acid, and Omega-3, and his stance on the medical monopoly.',
+  description: 'Dr. Wallach\'s 8-9 federal lawsuits against the FDA, health claim victories for Selenium, Folate, and Omega-3, and his stance on the medical monopoly.',
 };
 
 const legalVictories = [
   {
-    claim: 'Folic Acid & Neural Tube Defects',
+    claim: 'Folate & Neural Tube Defects',
     year: '1996',
     status: 'Won',
-    impact: 'The FDA was forced to allow supplement manufacturers to state that Folic Acid supplementation reduces the risk of neural tube defects (Spina Bifida, anencephaly) in developing fetuses. Today this is universally accepted — but it required federal litigation to establish.',
+    impact: 'The FDA was forced to allow supplement manufacturers to state that Folate supplementation reduces the risk of neural tube defects (Spina Bifida, anencephaly) in developing fetuses. Today this is universally accepted — but it required federal litigation to establish.',
     significance: 'This victory directly saves thousands of infants from birth defects annually. Prior to this ruling, supplement companies could not communicate this life-saving information.',
   },
   {
@@ -226,7 +226,7 @@ export default function LegalPage() {
               <p className="text-stone-600 text-sm leading-relaxed">
                 Dr. Wallach&apos;s legal battles permanently altered the regulatory landscape of nutritional health claims
                 in the United States. The health claims won through his litigation are now used daily by thousands of
-                supplement companies to communicate life-saving nutritional information. Every Folic Acid label that
+                supplement companies to communicate life-saving nutritional information. Every Folate label that
                 mentions Spina Bifida prevention, every fish oil label that mentions heart health — these exist because
                 of these court victories.
               </p>

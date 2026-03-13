@@ -60,7 +60,7 @@ const philosophyHighlights = [
 
 const nutrientGroups = [
   { count: '60', label: 'Essential Minerals', color: 'from-forest-700 to-forest-900', examples: 'Calcium, Magnesium, Selenium, Chromium, Vanadium, Copper, Zinc...' },
-  { count: '16', label: 'Essential Vitamins', color: 'from-earth-600 to-earth-800', examples: 'A, B-complex, C, D, E, K, Folic Acid, Biotin...' },
+  { count: '16', label: 'Essential Vitamins', color: 'from-earth-600 to-earth-800', examples: 'A, B-complex, C, D, E, K, Folate, Biotin...' },
   { count: '12', label: 'Essential Amino Acids', color: 'from-ocean-800 to-ocean-950', examples: 'Lysine, Threonine, Tryptophan, Methionine, Phenylalanine...' },
   { count: '3', label: 'Essential Fatty Acids', color: 'from-gold-700 to-earth-800', examples: 'Omega-3, Omega-6, Omega-9 — EPA, DHA, GLA...' },
 ];

@@ -107,8 +107,8 @@ const awards = [
 
 const legalVictories = [
   {
-    claim: 'Folic Acid & Neural Tube Defects',
-    outcome: 'FDA forced to allow the claim that Folic Acid supplementation reduces the risk of Spina Bifida and neural tube defects in newborns.',
+    claim: 'Folate & Neural Tube Defects',
+    outcome: 'FDA forced to allow the claim that Folate supplementation reduces the risk of Spina Bifida and neural tube defects in newborns.',
   },
   {
     claim: 'Selenium & Cancer Risk Reduction',
